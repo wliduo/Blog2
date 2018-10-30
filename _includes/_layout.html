@@ -1,0 +1,222 @@
+<!doctype html>
+{% include _blocks/title.html %}
+{% include _blocks/page_class.html %}
+{% include _blocks/sidebar.html %}
+{% include _blocks/script_extra.html %}
+
+{% assign html_class = 'theme-next ' | append: site.scheme %}
+{% if site.use_motion %}
+  {% assign html_class = html_class | append: ' use-motion' %}
+{% endif %}
+
+<html class="{{ html_class | downcase }}" lang="{{ site.language }}">
+<head>
+  {% include _partials/head.html %}
+  <title>{{ title }}</title>
+  {% include _third-party/analytics/index.html %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang | default: page.language | default: site.language }}">
+
+  {% assign container_class = "container " %}
+  {% if site.sidebar.position %}
+    {% assign container_class = container_class | append: 'sidebar-position-' | append: site.sidebar.position %}
+  {% endif %}
+
+  <div id="aplayer"></div>
+
+  <div class="{{ container_class }} {{ page_class }} ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> {% include _partials/header.html %} </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            {{ content }}
+          </div>
+          {% include _third-party/duoshuo-hot-articles.html %}
+          {% include _partials/comments.html %}
+        </div>
+        {% if site.sidebar.display != 'remove' %}
+          {{ sidebar }}
+        {% endif %}
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        {% include _partials/footer.html %}
+        {% include _third-party/analytics/busuanzi-counter.html %}
+        {{ footer }}
+      </div>
+    </footer>
+
+    {% unless site.sidebar.b2t %}
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        {% if site.sidebar.scrollpercent %}
+          <span id="scrollpercent"><span>0</span>%</span>
+        {% endif %}
+      </div>
+    {% endunless %}
+
+  </div>
+
+  {% include _scripts/vendors.html %}
+  {% include _scripts/commons.html %}
+
+  {% assign scheme_script = '_scripts/schemes/' | append: site.scheme | downcase | append: '.html' %}
+  {% include {{ scheme_script }} %}
+
+  {{ script_extra }}
+
+  {% include _scripts/boostrap.html %}
+
+  {% include _third-party/comments/index.html %}
+  {% include _third-party/search/index.html %}
+  {% include _third-party/analytics/lean-analytics.html %}
+  {% include _third-party/seo/baidu-push.html %}
+  {% include _third-party/rating.html %}
+  {% include _third-party/mathjax.html %}
+  {% include _third-party/scroll-cookie.html %}
+  {% include _third-party/exturl.html %}
+
+  <script>
+		const ap = new APlayer({
+		container: document.getElementById('aplayer'),
+		fixed: true,
+		lrcType: 3,
+		order: 'random',
+    theme: '#000000',
+    volume: 2.0,
+		audio: [
+        {
+            name: 'Waiting For Love',
+            artist: 'Avicii',
+            url: 'https://wang926454.cn/upload/music/waitingforlove.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/waitingforlove.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/waitingforlove.lrc'
+        },
+        {
+            name: 'Nevada',
+            artist: 'Vicetone/Cozi Zuehlsdorff',
+            url: 'https://wang926454.cn/upload/music/nevada.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/nevada.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/nevada.lrc'
+        },
+        {
+            name: 'Aeon',
+            artist: 'JJD',
+            url: 'https://wang926454.cn/upload/music/aeon.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/aeon.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/aeon.lrc'
+        },
+        {
+            name: 'Trip',
+            artist: 'Axero',
+            url: 'https://wang926454.cn/upload/music/trip.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/trip.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/trip.lrc'
+        },
+        {
+            name: 'Horizon',
+            artist: 'Janji',
+            url: 'https://wang926454.cn/upload/music/horizon.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/horizon.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/horizon.lrc'
+        },
+        {
+            name: '五月雨变奏电音',
+            artist: '者思范Remix',
+            url: 'https://wang926454.cn/upload/music/wuyueyu.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/wuyueyu.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/wuyueyu.lrc'
+        },
+        {
+            name: 'Sunburst(亚索台词版)',
+            artist: 'Goi7',
+            url: 'https://wang926454.cn/upload/music/sunburst.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/sunburst.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/sunburst.lrc'
+        },
+        {
+            name: 'Legends Never Die(Remix)',
+            artist: 'Alan Walker',
+            url: 'https://wang926454.cn/upload/music/legendsneverdie.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/legendsneverdie.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/legendsneverdie.lrc'
+        },
+        {
+            name: 'RISE 登峰造极境',
+            artist: '英雄联盟',
+            url: 'https://wang926454.cn/upload/music/rise.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/rise.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/rise.lrc'
+        },
+        {
+            name: '光るなら',
+            artist: 'Goose house',
+            url: 'https://wang926454.cn/upload/music/goosehouseguang.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/goosehouseguang.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/goosehouseguang.lrc'
+        },
+        {
+            name: '風に薫る夏の記憶',
+            artist: 'AAA',
+            url: 'https://wang926454.cn/upload/music/aaa.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/aaa.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/aaa.lrc'
+        },
+        {
+            name: '永久指针',
+            artist: '海贼王',
+            url: 'https://wang926454.cn/upload/music/yongjiuzhizhen.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/yongjiuzhizhen.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/yongjiuzhizhen.lrc'
+        },
+        {
+            name: '一直很安静',
+            artist: '阿桑',
+            url: 'https://wang926454.cn/upload/music/yizhihenanjing.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/yizhihenanjing.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/yizhihenanjing.lrc'
+        },
+        {
+            name: '侧脸',
+            artist: '于果',
+            url: 'https://wang926454.cn/upload/music/celian.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/celian.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/celian.lrc'
+        },
+        {
+            name: '从别后(Tvsize)',
+            artist: '流浪的蛙蛙',
+            url: 'https://wang926454.cn/upload/music/congbiehou.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/congbiehou.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/congbiehou.lrc'
+        }]
+	});
+
+  // 默认关闭歌词
+  ap.lrc.toggle();
+  $(".aplayer-icon-lrc").addClass("aplayer-icon-lrc-inactivity");
+
+  // 点击分页时触发刷新
+  $(document).ready(function(){
+    $(".pagination a").click(function(){
+      window.location.reload();
+    });
+  });
+  
+  </script>
+
+</body>
+</html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="https://wang926454.cn/js/src/love.js"></script>
