@@ -4,8 +4,8 @@ description: 我写了无数个面向对象的程序，最终还是找不到对�
 category: Life
 tags: Life
 photos:
-- https://wang926454.cn/upload/image/20181012005.png
-- https://wang926454.cn/upload/image/20181010005.png
+- https://res.wang64.cn/Image/201810/normal/12005.png
+- https://res.wang64.cn/Image/201810/normal/10005.png
 ---
 
 -----
