@@ -3,6 +3,7 @@ title: SpringBoot + Shiro + JWT集成Redis缓存(Jedis)
 description: 简单的介绍在SpringBoot集成了Shiro权限框架和JWT认证下如何以Jedis操作Redis，进行Shiro的缓存存取
 category: SpringBoot
 tags: [SpringBoot, Shiro, Redis]
+date: 2018-10-11 15:18:18
 ---
 
 -----
