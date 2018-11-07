@@ -85,7 +85,7 @@
         {% endif %}
         {% if site_rss %}
           <div class="feed-link motion-element">
-            <a href="{{ site_rss | relative_url }}" rel="alternate">
+            <a href="{{ site_rss | relative_url }}" rel="alternate" target="_blank">
               <i class="fa fa-rss"></i>
               RSS
             </a>
@@ -97,7 +97,7 @@
             {% for name_link in site.social %}
               {% assign name = name_link[0] %}
               {% assign link = name_link[1] %}
-              <span class="links-of-author-item">
+              <span class="links-of-author-item" style="text-align: center; display: block;">
                 <a href="{{ link }}" target="_blank" title="{{ name }}">
                   {% if site.social_icons.enable %}
                     <i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i>
