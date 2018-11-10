@@ -31,8 +31,6 @@ type: about
 
 *From [时文博览](https://blog.csdn.net/wang926454/article/details/53322461)*
 
-![image text](https://res.wang64.cn/Image/201810/normal/10005.png)
-
 -----
 
 ![image text](https://res.wang64.cn/Image/201810/normal/10010.png)
@@ -83,6 +81,10 @@ type: about
 
 >你没有领先(You’re not Early)
 
->在命运为你安排的属于自己的时区里，一切都准时(You are very much on Time, and in your Time Zone Destiny set up for you)
+>**在命运为你安排的属于自己的时区里，一切都准时(You are very much on Time, and in your Time Zone Destiny set up for you)**
+
+-----
+
+![image text](https://res.wang64.cn/Image/201810/normal/10005.png)
 
 -----
