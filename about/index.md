@@ -5,13 +5,13 @@ type: about
 
 -----
 
-<img src="{{site.baseurl}}/assets/images/avatar.gif" height="150px" width="150px" />
+<img src="https://wang926454.gitee.io/reader/Image/headt.png" height="150px" width="150px" />
 
 <h2 align="center">随心</h2>
 
 <p align="center">有时人生就像一个茶几，上面放满了杯具～</p>
 
-![image text](https://res.wang64.cn/Image/201810/normal/12005.png)
+![image text](https://wang926454.gitee.io/reader/Image/201810/normal/12005.png)
 
 -----
 
@@ -33,7 +33,7 @@ type: about
 
 -----
 
-![image text](https://res.wang64.cn/Image/201810/normal/10010.png)
+![image text](https://wang926454.gitee.io/reader/Image/201810/normal/10010.png)
 
 ### 时间是一位伟大的作者，它必将写出完美的答案
 
@@ -85,6 +85,6 @@ type: about
 
 -----
 
-![image text](https://res.wang64.cn/Image/201810/normal/10005.png)
+![image text](https://wang926454.gitee.io/reader/Image/201810/normal/10005.png)
 
 -----

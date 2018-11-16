@@ -85,7 +85,7 @@ public static void main(String[] args) {
  单元格内容  | 单元格内容 | 单元格内容  
 
 图片  
-![图片名称(Logo)](https://blog.wang64.cn/assets/images/avatar.gif)  
+![图片名称(Logo)](https://wang926454.gitee.io/reader/Image/headt.png)  
 
 链接  
 [链接名称](https://wang64.cn)  

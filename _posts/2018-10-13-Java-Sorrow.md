@@ -5,8 +5,8 @@ category: Life
 tags: Life
 date: 2018-10-13 15:18:18
 photos:
-- https://res.wang64.cn/Image/201810/normal/12005.png
-- https://res.wang64.cn/Image/201810/normal/10005.png
+- https://wang926454.gitee.io/reader/Image/201810/normal/12005.png
+- https://wang926454.gitee.io/reader/Image/201810/normal/10005.png
 ---
 
 -----
