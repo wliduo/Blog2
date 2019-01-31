@@ -4,9 +4,11 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 每一秒都很重要
+# title: 每一秒都很重要
+title: Eren's Blog
 subtitle: 世界上最大的谎言就是你不行
-description: 叹气的话会让幸福溜走的哦～
+# description: 叹气的话会让幸福溜走的哦～
+description: 愿你出走半生，归来仍是少年
 author: 随心
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
