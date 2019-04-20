@@ -124,6 +124,8 @@ menu:
   archives: /archives/
   categories: /categories/
   tags: /tags/
+  cv: /cv/
+  interview: /interview/
   about: /about/
 
 
@@ -147,6 +149,8 @@ menu_icons:
   pic: picture-o
   video: play
   text: font
+  cv: heartbeat
+  interview: diamond
   about: magnet
   mikutap: cogs
 
