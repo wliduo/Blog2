@@ -119,7 +119,9 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  sitemap: https://wang64.cn
+  sitemap: https://wang64.cn/go?url=https://wang64.cn
+  msg: https://wang64.cn/go?url=https://msg.wang64.cn
+  theme: https://wang64.cn/go?url=https://note.wang64.cn
   home: /
   archives: /archives/
   categories: /categories/
@@ -153,6 +155,8 @@ menu_icons:
   interview: diamond
   about: magnet
   mikutap: cogs
+  msg: paw
+  theme: cogs
 
 
 # ---------------------------------------------------------------
@@ -226,10 +230,14 @@ font:
   #LinkLabel: Link
 
 social:
-  GitHub: https://github.com/wang926454
-  CSDN: https://blog.csdn.net/wang926454
-  Gitee: https://gitee.com/wang926454
-  Weibo: https://weibo.com/wang926454
+  # GitHub: https://github.com/wang926454
+  # CSDN: https://blog.csdn.net/wang926454
+  # Gitee: https://gitee.com/wang926454
+  # Weibo: https://weibo.com/wang926454
+  Mark: https://wang64.cn/go?url=https://mark.wang64.cn
+  Link: https://wang64.cn/go?url=https://link.wang64.cn
+  Mikutap: https://wang64.cn/go?url=https://mikutap.wang64.cn
+  Contact: https://wang64.cn/go?url=https://cv.wang64.cn
 
 # Social Links Icons
 # Icon Mapping:
@@ -240,11 +248,14 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Gitee: git
-  CSDN: codiepie
-  Weibo: weibo
-
+  # GitHub: github
+  # Gitee: git
+  # CSDN: codiepie
+  # Weibo: weibo
+  Mark: link
+  Link: link
+  Mikutap: link
+  Contact: link
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif

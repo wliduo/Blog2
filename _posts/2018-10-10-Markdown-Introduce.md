@@ -1,7 +1,8 @@
 ---
 title: Markdown文件的基本常用编写语法
 description: 这个文档自身就是使用Markdown编写的，Markdown允许你通过编写易读、易写的富文本格式，然后很方便就可以转换成有效的HTML
-category: Jekyll
+layout: post
+category: Hexo
 tags: [Jekyll, Hexo, Markdown]
 ---
 
@@ -84,7 +85,7 @@ public static void main(String[] args) {
  单元格内容  | 单元格内容 | 单元格内容  
 
 图片  
-![图片名称(Logo)](https://wang926454.gitee.io/reader/Image/headt.png)  
+![图片名称(Logo)](https://blog.wang64.cn/assets/images/avatar.gif)  
 
 链接  
 [链接名称](https://wang64.cn)  
