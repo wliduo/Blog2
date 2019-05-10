@@ -51,7 +51,7 @@ title: 简历
 （HR会打印你的简历，用于在面试的时候联系，所以联系方式放到最上边会比较方便）
 
 - 手机：132.... （如果是外地手机，可注明，如经常关机，要写上最优联系时间）
-- Email：wang9264541@gmail.com （虽然我觉得QQ邮箱无所谓，不过有些技术人员比较反感，建议用G，非要用的话，不要用数字邮箱名）
+- Email：dolyw1@gmail.com （虽然我觉得QQ邮箱无所谓，不过有些技术人员比较反感，建议用G，非要用的话，不要用数字邮箱名）
 - QQ/微信号：6...（提供一个通过网络可以联系到你的方式）
 
 
@@ -60,9 +60,9 @@ title: 简历
 - 随心/男/1997
 - 火星计算机专业 
 - 工作年限：3年
-- 微博：[@随风飘的纸飞机](http://weibo.com/wang926454) （如果没有技术相关内容，也可以不放）
-- 技术博客：[https://blog.wang64.cn](https://blog.wang64.cn) (使用GitHub Host Big较高)
-- Github：[https://github.com/wang926454](https://github.com/wang926454) (有原创repoGithub帐号会极大的提升你的个人品牌)
+- 微博：[@随风飘的纸飞机](http://weibo.com/dolyw) （如果没有技术相关内容，也可以不放）
+- 技术博客：[https://blog.dolyw.com](https://blog.dolyw.com) (使用GitHub Host Big较高)
+- Github：[https://github.com/dolyw](https://github.com/dolyw) (有原创repoGithub帐号会极大的提升你的个人品牌)
 - 期望职位：Java高级程序员，应用架构师
 - 期望薪资：税前月薪15k~20k，特别喜欢的公司可例外
 - 期望城市：深圳
@@ -108,23 +108,23 @@ title: 简历
 
 （对于程序员来讲，没有什么比Show me the code能有说服力了）
 
-- [ShiroJwt](https://github.com/wang926454/ShiroJwt)：项目的简要说明，Star和Fork数多的可以注明
-- [ViewGenerator](https://github.com/wang926454/ViewGenerator)：项目的简要说明，Star和Fork数多的可以注明
+- [ShiroJwt](https://github.com/dolyw/ShiroJwt)：项目的简要说明，Star和Fork数多的可以注明
+- [ViewGenerator](https://github.com/dolyw/ViewGenerator)：项目的简要说明，Star和Fork数多的可以注明
 
 
 ### 技术文章
 
 （挑选你写作或翻译的技术文章，好的文章可以从侧面证实你的表达和沟通能力，也帮助招聘方更了解你）
 
-- [一个产品经理眼中的云计算：前生今世和未来](https://blog.wang64.cn)
-- [来自HeroKu的HTTP API 设计指南(翻译文章)](https://blog.wang64.cn) （好的翻译文章可以侧证你对英文技术文档的阅读能力）
+- [一个产品经理眼中的云计算：前生今世和未来](https://blog.dolyw.com)
+- [来自HeroKu的HTTP API 设计指南(翻译文章)](https://blog.dolyw.com) （好的翻译文章可以侧证你对英文技术文档的阅读能力）
 
 ### 演讲和讲义
 
 （放置你代表公司在一些技术会议上做过的演讲，以及你在公司分享时制作的讲义）
 
-- 20XX架构师大会演讲：[如何通过Docker优化内部开发](https://blog.wang64.cn)
-- X月公司内部分享：[云计算的前生今世](https://blog.wang64.cn)
+- 20XX架构师大会演讲：[如何通过Docker优化内部开发](https://blog.dolyw.com)
+- X月公司内部分享：[云计算的前生今世](https://blog.dolyw.com)
 
 ## 技能清单
 

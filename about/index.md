@@ -5,13 +5,13 @@ type: about
 
 -----
 
-<img src="https://wang926454.gitee.io/reader/Image/headt.png" height="150px" width="150px" />
+<img src="https://dolyw.gitee.io/reader/Image/headt.png" height="150px" width="150px" />
 
 <h2 align="center">随心</h2>
 
 <p align="center">有时人生就像一个茶几，上面放满了杯具～</p>
 
-![image text](https://wang926454.gitee.io/reader/Image/201810/normal/12005.png)
+![image text](https://dolyw.gitee.io/reader/Image/201810/normal/12005.png)
 
 -----
 
@@ -29,11 +29,11 @@ type: about
 
 >没有人的青春是在红地毯上走过，既然梦想成为那个别人无法企及的自我，就应该选择一条属于自己的道路，为了到达终点，付出别人无法企及的努力
 
-*From [时文博览](https://blog.csdn.net/wang926454/article/details/53322461)*
+*From [时文博览](https://blog.csdn.net/dolyw/article/details/53322461)*
 
 -----
 
-![image text](https://wang926454.gitee.io/reader/Image/201810/normal/10010.png)
+![image text](https://dolyw.gitee.io/reader/Image/201810/normal/10010.png)
 
 ### 时间是一位伟大的作者，它必将写出完美的答案
 
@@ -85,6 +85,6 @@ type: about
 
 -----
 
-![image text](https://wang926454.gitee.io/reader/Image/201810/normal/10005.png)
+![image text](https://dolyw.gitee.io/reader/Image/201810/normal/10005.png)
 
 -----
