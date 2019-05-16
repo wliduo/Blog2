@@ -81,7 +81,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "dolyw,wang64,wang926454,随心"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -119,16 +119,17 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  sitemap: https://dolyw.com/go?url=https://dolyw.com
+  sitemap: https://dolyw.com/go?url=https://map.dolyw.com
+  friend: https://dolyw.com/go?url=https://friend.dolyw.com
   msg: https://dolyw.com/go?url=https://msg.dolyw.com
   theme: https://dolyw.com/go?url=https://blog.dolyw.com
   home: /
   archives: /archives/
   categories: /categories/
   tags: /tags/
-  cv: /cv/
-  interview: /interview/
-  about: /about/
+  # cv: /cv/
+  # interview: /interview/
+  # about: /about/
 
 
 # Enable/Disable menu icons.
@@ -154,6 +155,7 @@ menu_icons:
   cv: heartbeat
   interview: diamond
   about: magnet
+  friend: magnet
   mikutap: cogs
   msg: paw
   theme: cogs
@@ -234,8 +236,9 @@ social:
   # CSDN: https://blog.csdn.net/dolyw
   # Gitee: https://gitee.com/dolyw
   # Weibo: https://weibo.com/dolyw
+  Home: https://dolyw.com/go?url=https://dolyw.com
   Mark: https://dolyw.com/go?url=https://mark.dolyw.com
-  Link: https://dolyw.com/go?url=https://link.dolyw.com
+  # Link: https://dolyw.com/go?url=https://link.dolyw.com
   Mikutap: https://dolyw.com/go?url=https://mikutap.dolyw.com
   Contact: https://dolyw.com/go?url=https://cv.dolyw.com
 
@@ -402,7 +405,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 1826dd4e676f6c917705c5632139f6dd
+baidu_analytics: 2beae01f64653b00b6689fce672e9a08
 
 # Duoshuo ShortName
 #duoshuo_shortname:

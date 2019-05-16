@@ -1,9 +1,9 @@
 title:
-  archive: 时间线
+  archive: 归档
   category: 分类
   tag: 标签
   schedule: 日程表
-  archives: 时间线
+  archives: 归档
   categories: 分类
   tags: 标签
   about: 这是我生命中最长的一秒
@@ -14,15 +14,15 @@ author: 随心
 
 menu:
   home: 主页
-  archives: 时间线
+  archives: 归档
   categories: 分类
   tags: 标签
   about: 关于
   search: 搜索
   schedule: 日程表
   msg: 留言
-  theme: 切主题
-  sitemap: 随心
+  theme: 切换
+  sitemap: 导航
   commonweal: 命令符
   pic: 图片字符
   video: 视频字符
@@ -32,6 +32,7 @@ menu:
   mikutap: Mikutap
   cv: 简历
   interview: 面试
+  friend: 友链
 
 sidebar:
   overview: 随心

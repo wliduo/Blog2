@@ -2,7 +2,7 @@
 title: Java中的线程池的创建及使用
 description: 简单的介绍在Java中的线程池的创建及使用
 category: Thread
-tags: [JavaSE, Thread]
+tags: [Java, Thread]
 ---
 
 -----
