@@ -4,6 +4,9 @@ description: 一直觉得wang926454这个名字太low太长，所以一直想改
 layout: post
 category: Life
 tags: Life
+photos:
+- https://img14.360buyimg.com/img/jfs/t1/30199/30/1979/348009/5c64b4b6Eaef7d298/10d4d2f7d139deb7.jpg
+- https://img20.360buyimg.com/img/jfs/t1/32197/23/1790/341866/5c60c034E8df2489a/feabed3481b4441b.jpg
 ---
 
 -----

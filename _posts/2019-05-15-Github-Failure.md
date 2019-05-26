@@ -4,6 +4,8 @@ description: 解决GitHub访问不了的方法
 layout: post
 category: Life
 tags: [Github, Life]
+photos:
+- https://img1.360buyimg.com/img/jfs/t1/12064/11/8141/345703/5c733609Edcb49b2c/a43edbe680813e66.jpg
 ---
 
 -----
