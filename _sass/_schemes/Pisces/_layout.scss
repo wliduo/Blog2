@@ -20,6 +20,7 @@
   background: white;
   box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 
   @include desktop-large() {
     .container & { width: 240px; }
@@ -66,6 +67,7 @@
   min-height: 700px;
   box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 
   @include tablet() {
     width: 100%;

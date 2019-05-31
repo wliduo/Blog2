@@ -23,16 +23,6 @@ show_date_time();
 {% assign current = site.time | date: '%Y' %}
 {% assign since = site.since | downcase %}
 
-已稳定运行<span id="since"></span>
-<div class="copyright" >
-  &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
-  <span itemprop="copyrightYear">{{ current }}</span>
-  <span class="with-love">
-    <i id="animate" class="fa fa-{{ site.authoricon }}"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
-</div>
-
 <div class="powered-by">
   {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
 </div>
@@ -42,6 +32,16 @@ show_date_time();
   <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
     NexT.{{ site.scheme }}
   </a>
+</div>
+
+<div class="copyright" >
+  &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
+  <span itemprop="copyrightYear">{{ current }}</span>
+  <span class="with-love">
+    <i id="animate" class="fa fa-{{ site.authoricon }}"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">{{ site.author }}</span> -
+  已稳定运行<span id="since"></span>
 </div>
 
 {% endif %}
