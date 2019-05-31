@@ -22,16 +22,16 @@ baseurl:
 permalink: pretty
 
 # Pagination
-paginate: 5
+paginate: 6
 paginate_path: "/page:num"
 archive:
-  paginate: 5
+  paginate: 12
   paginate_path: "/page:num/"
 category:
-  paginate: 5
+  paginate: 6
   paginate_path: "/page:num/"
 tag:
-  paginate: 5
+  paginate: 6
   paginate_path: "/page:num/"
 
 # Handling Reading
