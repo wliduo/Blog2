@@ -123,7 +123,7 @@ menu:
   sitemap: https://dolyw.com/go?url=https://map.dolyw.com
   friend: https://dolyw.com/go?url=https://friend.dolyw.com
   msg: https://dolyw.com/go?url=https://msg.dolyw.com
-  theme: https://dolyw.com/go?url=https://blog.dolyw.com
+  note: https://dolyw.com/go?url=https://note.dolyw.com
   home: /
   archives: /archives/
   categories: /categories/
@@ -160,6 +160,7 @@ menu_icons:
   mikutap: cogs
   msg: paw
   theme: cogs
+  note: book
 
 
 # ---------------------------------------------------------------
